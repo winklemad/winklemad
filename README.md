@@ -1,4 +1,4 @@
-# Hi, I'm winklemad 👋
+# Hi, I'm Madan Kumar 👋
 
 > **Software engineer who ships across the whole stack.** I find and fix real bugs in the infrastructure the industry actually runs on.
 
@@ -45,6 +45,8 @@ I'm open to new opportunities — backend / infrastructure / AI-platform enginee
 ## 📫 Reach me
 
 - 💻 GitHub: [@winklemad](https://github.com/winklemad)
+- 💼 LinkedIn: [in/winklemad](https://www.linkedin.com/in/winklemad/)
+- 🐦 X: [@winklemad](https://x.com/winklemad)
 - ✉️ Email: winklemad@outlook.com
 
 <!--
