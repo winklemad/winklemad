@@ -38,10 +38,6 @@ Open fixes at **NVIDIA · Apple · Anthropic · Google DeepMind · Hugging Face 
 - **Domains:** AI / ML infrastructure · LLM & agent tooling · databases · backend APIs · data engineering · systems · application security
 - **How I work:** read the source → reproduce red → fix the whole bug *class* → prove it with a test → ship.
 
-## 💼 What I'm looking for
-
-I'm open to new opportunities — backend / infrastructure / AI-platform engineering roles where deep debugging and shipping across a broad stack are valued. If that's you, let's talk.
-
 ## 📫 Reach me
 
 - 💻 GitHub: [@winklemad](https://github.com/winklemad)
