@@ -2,7 +2,7 @@
 
 > **Software engineer who ships across the whole stack.** I find and fix real bugs in the infrastructure the industry actually runs on.
 
-I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **9 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, and pydantic**, with **50+ more in review** across 40+ organizations — in **Python, TypeScript, Java, Rust, and Go**.
+I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **13 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, Vue, and pydantic**, with **50+ more in review** across 40+ organizations — in **Python, TypeScript, Java, Rust, Go, and C**.
 
 No typo fixes. Every one below is a real defect with a reproduction and a test.
 
@@ -11,6 +11,7 @@ No typo fixes. Every one below is a real defect with a reproduction and a test.
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 
 ## 🚀 Selected merged contributions
 
@@ -25,12 +26,23 @@ No typo fixes. Every one below is a real defect with a reproduction and a test.
 | [pydantic #13428](https://github.com/pydantic/pydantic/pull/13428) | **pydantic** | `__hash__` on `WithJsonSchema` / `Examples` ignored the `mode` value → hash collisions between distinct schemas. |
 | [unsloth #7073](https://github.com/unslothai/unsloth/pull/7073) | **Unsloth** | `SyntheticDataKit.chunk_data` emitted chunks over the requested `max_tokens` limit. |
 | [mistral-common #262](https://github.com/mistralai/mistral-common/pull/262) | **Mistral** | The `seed` field was dropped when bridging a `SpeechRequest` into the OpenAI request format. |
+| [pinia #3162](https://github.com/vuejs/pinia/pull/3162) | **Vue** | Store hydration *unioned* incoming reactive `Set` / `Map` state into the existing value instead of replacing it → stale entries survived hydration. |
+| [fastmcp #4492](https://github.com/PrefectHQ/fastmcp/pull/4492) | **Prefect** | `compress_schema` mutated the caller's schema object in place → unexpected side effects on the passed-in data. |
+| [coreutils #13439](https://github.com/uutils/coreutils/pull/13439) | **uutils · Rust** | `paste -s -d` didn't restart the delimiter cycle for each file → output diverged from GNU coreutils. |
+| [htop #2046](https://github.com/htop-dev/htop/pull/2046) | **htop · C** | A reset-on-fork scheduling flag was combined with `&=` instead of `\|=`, zeroing the scheduling policy every time it was set. |
 
 ## 🔬 Currently in review
 
 Open fixes at **NVIDIA · Apple · Anthropic · Google DeepMind · Hugging Face · Redis · Qdrant · Spotify · Supabase · scikit-learn · vLLM · IBM · MLflow · Nushell · OpenSearch** and more.
 
 **[→ See all open pull requests](https://github.com/search?q=author%3Awinklemad+is%3Apr&type=pullrequests)**
+
+## 🚀 Beyond bug fixes — a product I shipped solo
+
+**PhantomAI** — a **multichannel LLM gateway** built end to end in **under 90 days**. One workspace (plus a REST API) that routes across **9 model providers** — OpenAI, Anthropic, Google, Mistral, DeepSeek, xAI, Azure, OpenRouter, and Ollama — with streaming responses, isolated per-user API keys, and a Stripe-metered, per-model credit-billing system.
+
+- **Frontend:** React 18 · Vite · TypeScript · shadcn-ui / Tailwind · Next.js marketing site
+- **Backend & data:** Supabase (Postgres, row-level security, Edge Functions) · Stripe billing · deployed on Vercel
 
 ## 🛠️ What I work in
 
