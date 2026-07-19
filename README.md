@@ -2,7 +2,7 @@
 
 > **Software engineer who ships across the whole stack.** I find and fix real bugs in the infrastructure the industry actually runs on.
 
-I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **13 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, Vue, and pydantic**, with **50+ more in review** across 40+ organizations — in **Python, TypeScript, Java, Rust, Go, and C**.
+I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **15 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, Vue, Prefect, and pydantic**, with **60+ more in review** across nearly 50 organizations — in **Python, TypeScript, Java, Rust, Go, and C**.
 
 No typo fixes. Every one below is a real defect with a reproduction and a test.
 
@@ -30,10 +30,12 @@ No typo fixes. Every one below is a real defect with a reproduction and a test.
 | [fastmcp #4492](https://github.com/PrefectHQ/fastmcp/pull/4492) | **Prefect** | `compress_schema` mutated the caller's schema object in place → unexpected side effects on the passed-in data. |
 | [coreutils #13439](https://github.com/uutils/coreutils/pull/13439) | **uutils · Rust** | `paste -s -d` didn't restart the delimiter cycle for each file → output diverged from GNU coreutils. |
 | [htop #2046](https://github.com/htop-dev/htop/pull/2046) | **htop · C** | A reset-on-fork scheduling flag was combined with `&=` instead of `\|=`, zeroing the scheduling policy every time it was set. |
+| [psycopg #1373](https://github.com/psycopg/psycopg/pull/1373) | **psycopg · Python** | Two `DataError` messages were missing the `f` prefix, so the `{...}` placeholders printed as literal braces instead of the offending values. |
+| [novu #11984](https://github.com/novuhq/novu/pull/11984) | **Novu** | The digest name filter rendered "and 0 others" when `maxNames` already covered every item, instead of omitting the suffix. |
 
 ## 🔬 Currently in review
 
-Open fixes at **NVIDIA · Apple · Anthropic · Google DeepMind · Hugging Face · Redis · Qdrant · Spotify · Supabase · scikit-learn · vLLM · IBM · MLflow · Nushell · OpenSearch** and more.
+Open fixes at **NVIDIA · Apple · Anthropic · Google DeepMind · Hugging Face · Redis · Qdrant · Spotify · Supabase · scikit-learn · vLLM · Ollama · Keras · MLflow · OpenSearch** and more.
 
 **[→ See all open pull requests](https://github.com/search?q=author%3Awinklemad+is%3Apr&type=pullrequests)**
 
@@ -49,6 +51,10 @@ Open fixes at **NVIDIA · Apple · Anthropic · Google DeepMind · Hugging Face 
 - **Languages:** Python · TypeScript / JavaScript · Rust · Go · Java
 - **Domains:** AI / ML infrastructure · LLM & agent tooling · databases · backend APIs · data engineering · systems · application security
 - **How I work:** read the source → reproduce red → fix the whole bug *class* → prove it with a test → ship.
+
+## 💜 Support my work
+
+If my fixes have helped a project you rely on, you can [sponsor me on GitHub](https://github.com/sponsors/winklemad). It funds more time spent reading source and shipping fixes upstream.
 
 ## 📫 Reach me
 
