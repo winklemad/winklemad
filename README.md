@@ -12,13 +12,6 @@ I read source and fix real bugs in the infrastructure the world runs on — **16
 
 [![See all 16 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_16_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
-## 📊 GitHub activity
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=winklemad&show_icons=true&hide_border=true&include_all_commits=true&theme=github_dark" alt="winklemad's GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=winklemad&layout=compact&hide_border=true&langs_count=8&theme=github_dark" alt="Most-used languages" height="165">
-</p>
-
 ## 📫 Reach me
 
 <p>
