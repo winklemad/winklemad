@@ -53,6 +53,13 @@ Open fixes at **NVIDIA · Apple · Anthropic · Google DeepMind · Hugging Face 
 - **Domains:** AI / ML infrastructure · LLM & agent tooling · databases · backend APIs · data engineering · systems · application security
 - **How I work:** read the source → reproduce red → fix the whole bug *class* → prove it with a test → ship.
 
+## 📊 GitHub activity
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=winklemad&show_icons=true&hide_border=true&include_all_commits=true&theme=github_dark" alt="winklemad's GitHub stats" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=winklemad&layout=compact&hide_border=true&langs_count=8&theme=github_dark" alt="Most-used languages" height="165">
+</p>
+
 ## 💜 Support my work
 
 If my fixes have helped a project you rely on, you can [sponsor me on GitHub](https://github.com/sponsors/winklemad). It funds more time spent reading source and shipping fixes upstream.
