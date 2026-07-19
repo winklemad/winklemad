@@ -2,7 +2,7 @@
 
 > **Software engineer who ships across the whole stack.** I find and fix real bugs in the infrastructure the industry actually runs on.
 
-I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **15 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, Vue, Prefect, and pydantic**, with **60+ more in review** across nearly 50 organizations — in **Python, TypeScript, Java, Rust, Go, and C**.
+I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **16 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, Vue, Prefect, jq, and pydantic**, with **60+ more in review** across nearly 50 organizations — in **Python, TypeScript, Java, Rust, Go, and C**.
 
 No typo fixes. Every one below is a real defect with a reproduction and a test.
 
@@ -32,6 +32,7 @@ No typo fixes. Every one below is a real defect with a reproduction and a test.
 | [htop #2046](https://github.com/htop-dev/htop/pull/2046) | **htop · C** | A reset-on-fork scheduling flag was combined with `&=` instead of `\|=`, zeroing the scheduling policy every time it was set. |
 | [psycopg #1373](https://github.com/psycopg/psycopg/pull/1373) | **psycopg · Python** | Two `DataError` messages were missing the `f` prefix, so the `{...}` placeholders printed as literal braces instead of the offending values. |
 | [novu #11984](https://github.com/novuhq/novu/pull/11984) | **Novu** | The digest name filter rendered "and 0 others" when `maxNames` already covered every item, instead of omitting the suffix. |
+| [jq #3586](https://github.com/jqlang/jq/pull/3586) | **jq · C** | A zero-width global regex match advanced by one code unit instead of the whole Unicode codepoint, so `["🚀" \| match(""; "g")] \| length` miscounted multi-byte characters. |
 
 ## 🔬 Currently in review
 
