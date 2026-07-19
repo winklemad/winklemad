@@ -1,10 +1,16 @@
-# Hi, I'm Madan Kumar 👋
+# Madan Kumar
 
-> **Software engineer who ships across the whole stack.** I find and fix real bugs in the infrastructure the industry actually runs on.
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 16 merged'" width="100%">
 
 I hunt for subtle correctness, security, and API-contract bugs by *reading the code* — then ship the fix with a regression test. So far that's **16 merged pull requests** into projects owned by **OpenAI, Meta, Microsoft, Google, Unsloth, Mistral, Vue, Prefect, jq, and pydantic**, with **60+ more in review** across nearly 50 organizations — in **Python, TypeScript, Java, Rust, Go, and C**.
 
 No typo fixes. Every one below is a real defect with a reproduction and a test.
+
+```diff
+@@ every fix below is a real bug — reproduced red, shipped green, with a test @@
+- openai/agents: forwarded top_logprobs but never set logprobs=True → API 400
++ set logprobs=True whenever top_logprobs is present                 ✔ merged
+```
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -66,10 +72,13 @@ If my fixes have helped a project you rely on, you can [sponsor me on GitHub](ht
 
 ## 📫 Reach me
 
-- 💻 GitHub: [@winklemad](https://github.com/winklemad)
-- 💼 LinkedIn: [in/winklemad](https://www.linkedin.com/in/winklemad/)
-- 🐦 X: [@winklemad](https://x.com/winklemad)
-- ✉️ Email: winklemad@outlook.com
+<p>
+  <a href="https://www.linkedin.com/in/winklemad/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://x.com/winklemad"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://winklemad.github.io"><img src="https://img.shields.io/badge/Website-1A9E57?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://github.com/sponsors/winklemad"><img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
+  <a href="mailto:winklemad@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
+</p>
 
 <!--
   ── Optional: uncomment to add live GitHub stats cards (they render on GitHub) ──
