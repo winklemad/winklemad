@@ -14,10 +14,16 @@ I read source and fix real bugs in the infrastructure the world runs on — **28
 
 ## GitHub stats
 
-<div>
-  <img height="180" src="./profile/stats.svg" alt="Madan Kumar's GitHub contribution stats">
-  <img height="180" src="./profile/top-langs.svg" alt="Most-used languages across repositories owned by winklemad">
-</div>
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=winklemad&theme=meta-light&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="Madan Kumar's GitHub contribution streak">
+  </a>
+</p>
+
+<p align="center">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=winklemad&theme=transparent" alt="Madan Kumar's live GitHub stats">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=winklemad&theme=transparent" alt="Most-used languages across public repositories owned by winklemad">
+</p>
 
 <sub>Language totals reflect public code in repositories I own; my external OSS contributions span Python, TypeScript, Rust, Go, Java, and C.</sub>
 
