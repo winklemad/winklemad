@@ -1,16 +1,16 @@
 # Madan Kumar
 
-<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 28 merged'" width="100%">
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 36 merged'" width="100%">
 
-I read source and fix real bugs in the infrastructure the world runs on — **28 merged pull requests** across **OpenAI · Meta · Microsoft · Google · Google DeepMind · Apple · Keras · Redis · Qdrant · Mistral** and more, in Python, TypeScript, Rust, Java, and C. No typo fixes: every one is a real defect, reproduced red and shipped green with a test.
+I read source and fix real bugs in the infrastructure the world runs on — **36 merged pull requests** across **34 organizations**, including **OpenAI · Meta · Google · MongoDB · Apple · NVIDIA · Google DeepMind · Redis · Keras · Qdrant · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No typo fixes: every one is a real defect, reproduced red and shipped green with a test.
 
 ```diff
-@@ a taste — one of the twenty-eight @@
+@@ a taste — one of the thirty-six @@
 - openai/agents: forwarded top_logprobs but never set logprobs=True → API 400
 + set logprobs=True whenever top_logprobs is present                 ✔ merged
 ```
 
-[![See all 28 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_28_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
+[![See all 36 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_36_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
 ## GitHub stats
 
