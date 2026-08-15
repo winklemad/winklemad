@@ -1,16 +1,16 @@
 # Madan Kumar
 
-<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 44 merged'" width="100%">
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 47 merged'" width="100%">
 
-I read source and fix real bugs in the infrastructure the world runs on — **44 merged pull requests** across **39 organizations**, including **OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Keras · Qdrant · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 42 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
+I read source and fix real bugs in the infrastructure the world runs on — **47 merged pull requests** across **42 organizations**, including **Anthropic · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 45 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
 
 ```diff
-@@ a taste — one of the forty-four @@
-- prometheus: a 2nd span merge in Compact spliced at a stale bucket index
-+ advance past the absorbed span, not just the gap it filled      ✔ merged
+@@ a taste — one of the forty-seven @@
+- cargo: a short closing fence consumed one byte past the dashes
++ track the dash count separately, so it can't split a multi-byte char   ✔ merged
 ```
 
-[![See all 44 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_44_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
+[![See all 47 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_47_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
 ## GitHub stats
 
