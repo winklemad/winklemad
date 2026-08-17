@@ -1,4 +1,4 @@
-<svg width="860" height="214" viewBox="0 0 860 214" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 47 merged'">
+<svg width="860" height="214" viewBox="0 0 860 214" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 48 merged'">
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace">
     <!-- card -->
     <rect x="1" y="1" width="858" height="212" rx="11" fill="#0B0E13" stroke="#2A313B"/>
@@ -26,7 +26,7 @@
     <!-- plus line: the proof -->
     <rect x="1.5" y="151" width="857" height="30" fill="#2ea043" fill-opacity="0.15"/>
     <text x="26" y="171" font-size="15" fill="#7ee787">+</text>
-    <text x="50" y="171" font-size="15" fill="#aff0c1">47 merged into Anthropic &#183; NVIDIA &#183; Rust &#183; OpenAI &#183; Meta &#183; Google &#8212; each with a test.</text>
+    <text x="50" y="171" font-size="15" fill="#aff0c1">48 merged into Anthropic &#183; NVIDIA &#183; Rust &#183; OpenAI &#183; Meta &#183; Google &#8212; each with a test.</text>
 
     <!-- footer command -->
     <text x="24" y="201" font-size="12.5" fill="#6e7681">$ git log --oneline --merged --author=winklemad | wc -l&#160;&#160;&#8594;&#160;&#160;28</text>
