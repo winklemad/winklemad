@@ -10,6 +10,23 @@ I read source and fix real bugs in the infrastructure the world runs on — **54
 + track the dash count separately, so it can't split a multi-byte char   ✔ merged
 ```
 
+## Where I work — across the AI-infrastructure stack
+
+**🔌 Distributed systems & networking** — concurrency, RPC, fault tolerance, timeouts
+`docker/cli` duplicate-network service panic · `carapaceproxy` absolute-form proxy auth-bypass (CWE-436/863) · `htop` process-scheduling flags — *gRPC-Go, Cloudflare, Prometheus in review*
+
+**⚡ AI inference & serving** — batching, streaming, model serving, latency
+`openai-agents-python` Chat-Completions logprobs · `DeepSpeed` inference-config crash · `keras` broadcast shape/dtype inference · `xformers` causal-attention FLOP accounting — *vLLM, SGLang in review*
+
+**📊 Observability** — metrics, tracing, failure diagnosis
+`prometheus` histogram `Compact` corrupting buckets · `opentelemetry-python` case-insensitive View instrument matching — *Grafana SDK in review*
+
+**🗄️ Data infrastructure** — vector databases, storage, indexing, retrieval
+`qdrant-client` ×2 local-mode filter/proto correctness · `txtai` IVFSparse ANN result ordering · `mongo-python-driver` Extended JSON · `haystack` round-trip serialization — *LanceDB, Chroma in review*
+
+**🧠 ML systems** — distributed training, quantization, fine-tuning, model export
+`NVIDIA/Megatron-LM` multimodal dataset modes · `huggingface/peft` LoRA `layers_to_transform` · `coremltools` ×2 model-graph optimization · `timesfm` quantile inference — *llm-compressor quantization + pruning in review*
+
 [![See all 54 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_54_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
 ## GitHub stats
