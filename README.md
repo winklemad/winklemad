@@ -1,16 +1,16 @@
 # Madan Kumar
 
-<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 48 merged'" width="100%">
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 54 merged'" width="100%">
 
-I read source and fix real bugs in the infrastructure the world runs on — **48 merged pull requests** across **43 organizations**, including **Anthropic · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 46 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
+I read source and fix real bugs in the infrastructure the world runs on — **54 merged pull requests** across **47 organizations**, including **Anthropic · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 52 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
 
 ```diff
-@@ a taste — one of the forty-eight @@
+@@ a taste — one of the fifty-four @@
 - cargo: a short closing fence consumed one byte past the dashes
 + track the dash count separately, so it can't split a multi-byte char   ✔ merged
 ```
 
-[![See all 48 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_48_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
+[![See all 54 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_54_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
 ## GitHub stats
 
