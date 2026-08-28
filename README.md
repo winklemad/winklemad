@@ -1,11 +1,11 @@
 # Madan Kumar
 
-<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 62 merged'" width="100%">
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 63 merged'" width="100%">
 
-I read source and fix real bugs in the infrastructure the world runs on — **62 merged pull requests** across **49 organizations**, including **Anthropic · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 60 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
+I read source and fix real bugs in the infrastructure the world runs on — **63 merged pull requests** across **50 organizations**, including **Anthropic · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 61 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
 
 ```diff
-@@ a taste — one of the sixty-two @@
+@@ a taste — one of the sixty-three @@
 - cargo: a short closing fence consumed one byte past the dashes
 + track the dash count separately, so it can't split a multi-byte char   ✔ merged
 ```
@@ -22,12 +22,12 @@ I read source and fix real bugs in the infrastructure the world runs on — **62
 `prometheus` histogram `Compact` corrupting buckets · `opentelemetry-python` case-insensitive View instrument matching — *Grafana SDK in review*
 
 **🗄️ Data infrastructure** — vector databases, storage, indexing, retrieval
-`qdrant-client` ×2 local-mode filter/proto correctness · `txtai` IVFSparse ANN result ordering · `mongo-python-driver` Extended JSON · `haystack` round-trip serialization — *LanceDB, Chroma in review*
+`qdrant-client` ×2 local-mode filter/proto correctness · `txtai` IVFSparse ANN result ordering · `mongo-python-driver` Extended JSON · `haystack` round-trip serialization · `sqlfluff` shorthand-cast autofix corrupting array subscripts — *LanceDB, Chroma in review*
 
 **🧠 ML systems** — distributed training, quantization, fine-tuning, model export
 `NVIDIA/Megatron-LM` multimodal dataset modes · `timm` ×5 optimizer (AdafactorBigVision, SGDW) + factory + augmentation-pipeline correctness · `huggingface/peft` LoRA `layers_to_transform` · `coremltools` ×2 model-graph optimization · `timesfm` quantile inference · `llm-compressor` polynomial-decay pruning scheduler · `google/or-tools` enforced-constraint routing — *quantization work in review*
 
-[![See all 62 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_62_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
+[![See all 63 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_63_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
 ## GitHub stats
 
