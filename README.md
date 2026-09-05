@@ -1,5 +1,7 @@
 # Madan Kumar
 
+### Technical Lead Engineer · AI Infrastructure / ML Systems / Distributed Systems
+
 <img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 82 merged'" width="100%">
 
 I read source and fix real bugs in the infrastructure the world runs on — **82 merged pull requests** across **60 organizations**, including **Anthropic · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 80 are real defects, each reproduced red and shipped green with a test; the other two correct documentation that stated the wrong behaviour.
