@@ -29,7 +29,7 @@ I read source and fix real bugs in the infrastructure the world runs on — **10
 **🧠 ML systems** — distributed training, quantization, fine-tuning, model export
 `NVIDIA/Megatron-LM` multimodal dataset modes · `timm` ×5 optimizer (AdafactorBigVision, SGDW) + factory + augmentation-pipeline correctness · `huggingface/peft` LoRA `layers_to_transform` · `coremltools` ×2 model-graph optimization · `timesfm` quantile inference · `llm-compressor` polynomial-decay pruning scheduler · `google/or-tools` enforced-constraint routing — *quantization work in review*
 
-[![See all 105 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_105_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
+[![See all 104 fixes at winklemad.github.io](https://img.shields.io/badge/See_all_104_fixes_and_how_I_found_them-winklemad.github.io-1A9E57?style=for-the-badge&labelColor=0B0E13&logo=github&logoColor=white)](https://winklemad.github.io)
 
 ## GitHub stats
 
