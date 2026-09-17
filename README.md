@@ -2,12 +2,14 @@
 
 ### Technical Lead Engineer · AI Infrastructure / ML Systems / Distributed Systems
 
-<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 105 merged'" width="100%">
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 107 merged'" width="100%">
 
-I read source and fix real bugs in the infrastructure the world runs on — **105 merged pull requests** across **71 organizations**, including **Anthropic · NASA · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 102 are real defects, each reproduced red and shipped green with a test; the others correct documentation or handle project housekeeping.
+> 🟢 **Open to new opportunities** — AI Infrastructure · Backend Platform · ML Systems (remote or relocation). Best reached by **[email](mailto:winklemad@outlook.com)** or **[LinkedIn](https://www.linkedin.com/in/winklemad/)**.
+
+I read source and fix real bugs in the infrastructure the world runs on — **107 merged pull requests** across **72 organizations**, including **Anthropic · NASA · CPython · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: 102 are real defects, each reproduced red and shipped green with a test; the others correct documentation or handle project housekeeping.
 
 ```diff
-@@ a taste — one of the sixty-three @@
+@@ a taste — one of the hundred-plus @@
 - cargo: a short closing fence consumed one byte past the dashes
 + track the dash count separately, so it can't split a multi-byte char   ✔ merged
 ```
