@@ -2,11 +2,11 @@
 
 ### Technical Lead Engineer · AI Infrastructure / ML Systems / Distributed Systems
 
-<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 123 merged'" width="100%">
+<img src="./assets/header.svg" alt="A git diff patching 'Former Cyber Security Expert' into 'I read source and fix real bugs in the code the world runs on — 126 merged'" width="100%">
 
 > 🟢 **Open to new opportunities** — AI Infrastructure · Backend Platform · ML Systems (remote or relocation). Best reached by **[email](mailto:winklemad@outlook.com)** or **[LinkedIn](https://www.linkedin.com/in/winklemad/)**.
 
-I read source and fix real bugs in the infrastructure the world runs on — **123 merged pull requests** across **77 organizations**, including **Anthropic · NASA · CPython · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: nearly all are real defects, each reproduced red and shipped green with a test; a handful correct documentation or handle project housekeeping.
+I read source and fix real bugs in the infrastructure the world runs on — **126 merged pull requests** across **78 organizations**, including **Anthropic · NASA · CPython · NVIDIA · Rust · OpenAI · Meta · Google · Prometheus · MongoDB · Apple · Docker · OpenTelemetry · Redis · Google DeepMind · Hugging Face · Mistral** and more, in Python, TypeScript, Go, Rust, Java, and C. No drive-by typo fixes: nearly all are real defects, each reproduced red and shipped green with a test; a handful correct documentation or handle project housekeeping.
 
 ```diff
 @@ a taste — one of the hundred-plus @@
